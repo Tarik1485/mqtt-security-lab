@@ -1,0 +1,15 @@
+Example configuration for a local MQTT security lab.
+
+Replace paths if your Mosquitto installation differs.
+
+listener 1884 127.0.0.1
+allow_anonymous false
+password_file C:\mosquitto\passwords.txt
+
+listener 8883 127.0.0.1
+allow_anonymous false
+password_file C:\mosquitto\passwords.txt
+
+cafile C:\mosquitto\certs\ca.crt
+certfile C:\mosquitto\certs\server.crt
+keyfile C:\mosquitto\certs\server.key

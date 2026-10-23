@@ -1,0 +1,22 @@
+Passwords and secrets
+
+passwords.txt
+*.key
+*.pem
+*.p12
+*.pfx
+
+Local certificates and private material
+
+ca.crt
+server.crt
+server.csr
+server.ext
+ca.srl
+
+Generated and local files
+
+.dart_tool/
+build/
+.env
+.env.*
